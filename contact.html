@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">        
+        <script src="https://kit.fontawesome.com/e2a6167fc7.js" crossorigin="anonymous"></script>
+
+    <title>About</title>
+</head>
+<body>
+    <header class="about-header">
+        <nav>
+            <a href="index.html"><img
+                    src="./Logo sp.png"
+                    alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="">OFFER</a></li>
+                    <li><a href="">PRICING</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html" style="color:#8C1F28";>CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+    
+        <div class="contact-header">
+        <h2>Let's Connect</h2>
+        </div>
+<div class="contact-table">
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="Enter your first name" required>
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Enter your last name" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email-form" placeholder="Enter your email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone-form" placeholder="Enter your phone number" required>
+                    </div>
+                </div>
+
+                <div class="message-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Type Message..." rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </form>
+        </div>
+
+        <div class="contact-image">
+            <img src="./anastase-maragos-7kEpUPB8vNk-unsplash copy.jpg" alt="Trainer Coaching Athlete">
+        </div>
+</div>       
+    </section>
+<section class="map-section">
+    <div class="map-container">
+        <!-- Google Map Embed -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78514.42469290238!2d-0.9083358180376727!3d52.05103898418942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487701aa5e588893%3A0xbf0b8f5679d48458!2sSpartans%20Gym%20-%20Home%20of%20the%20Spartans!5e0!3m2!1spl!2suk!4v1734426620008!5m2!1spl!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+        </iframe>
+    </div>
+</section>
+
+<section class="footersection">
+    <footer>
+      <div class="footercontainer">
+        <!-- Left Section -->
+        <div class="footerleft">
+          <div class="footerbrandname">
+            <h3>SPARTAN</h3>
+            <p>Delivering personalized fitness solutions with state-of-the-art facilities and expert guidance.</p>
+          </div>
+          <div class="operationalhours">
+            <table class="timetable">
+              <tr>
+                <th>Operational Hours</th>
+              </tr>
+              <tr>
+                <td>Monday-Friday</td>
+                <td>5:30 AM - 11:00 PM</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>08:00 AM - 09:00 PM</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>08:00 AM - 09:00 PM</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+  
+        <!-- Right Section -->
+        <div class="footerright">
+          <!-- Pages Section -->
+          <div class="fcontact footer-columnone">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="#features-menu">Offer</a></li>
+              <li><a href="#features-menu">Pricing</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+            </ul>
+          </div>
+  
+          <!-- Resources Section -->
+          <div class="fcontact">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Licensing</a></li>
+            </ul>
+          </div>
+  
+          <!-- Social Section -->
+          <div class="fcontact">
+            <h4>Social</h4>
+            <ul>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Twitter</a></li>
+            </ul>
+          </div>
+  
+          <!-- Contact Section -->
+          <div class="fcontact">
+            <h4>Contact</h4>
+            <ul>
+              <li>Unit 6, Stacey Bushes</li>
+              <li>Milton Keynes</li>
+              <li>MK12 6HS</li>
+              <li><a href="mailto:spartan@gmail.com">spartan@gmail.com</a></li>
+              <li><a href="tel:01908 313952">01908 313952</a></li>
+            </ul>
+            
+          </div>
+          
+        </div>
+      </div>
+      <div class="copyrigths">
+      <h3>© 2024 Spartan.</h3>
+      </div>
+
+    </footer>
+  </section>
+  
+<!-----------social-icons-------->
+<div class="social-icons">
+    <div class="vl"></div>
+    <i class="fa fa-instagram fa-2xl" aria-hidden="true" style="color: #D92525"></i>
+    <i class="fa fa-linkedin-square fa-2xl" aria-hidden="true"></i>
+    <i class="fa fa-facebook fa-2xl" aria-hidden="true"></i>
+    <div class="vl"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./java.js"></script>
+</body>
+
+</html>
